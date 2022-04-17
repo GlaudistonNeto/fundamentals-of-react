@@ -1,7 +1,17 @@
+// style file
+
+import MyComponent from "./MyComponent";
+
 const FirstComponent = () => {
+  /*
+    Multi line
+      comment
+  */
   return (
-    <div>
-      <h1>First Component</h1>
+    <div className="myClass">
+      {/* Some comment */}
+      <h2>First Component</h2>
+      <MyComponent />
     </div>
   );
 };
